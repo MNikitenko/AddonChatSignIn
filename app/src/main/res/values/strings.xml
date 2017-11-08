@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AddonChatSignIn</string>
+
+    <!--Errors-->
+    <string name="error_login">Ошибка входа</string>
+    <string name="error_email">Не корректный email</string>
+    <string name="error_pass">Длина пароля не менее 6 символов</string>
+
+    <!--Permissions-->
+    <string name="perm_success">Разрешение получено</string>
+    <string name="perm_denied">Разрешение отклонено</string>
+
+</resources>

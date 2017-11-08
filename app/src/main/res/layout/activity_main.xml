@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.com.teamgear.addon_chatsdk.activities.MainActivity">
+
+    <Button
+        android:id="@+id/auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auth"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"/>
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:layout_below="@+id/auth"
+        android:layout_alignLeft="@+id/auth"
+        android:layout_alignStart="@+id/auth"
+        android:layout_marginTop="44dp"/>
+
+    <Button
+        android:id="@+id/permission_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="permission camera"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/permission_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="permission location"
+        android:layout_above="@+id/permission_local_storage"
+        android:layout_alignLeft="@+id/permission_camera"
+        android:layout_alignStart="@+id/permission_camera"
+        android:layout_marginBottom="45dp"/>
+
+
+    <Button
+        android:id="@+id/permission_local_storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="permission read local storage"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"/>
+
+</RelativeLayout>

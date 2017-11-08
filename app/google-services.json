@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1005117572671",
+    "firebase_url": "https://addonchatsignin.firebaseio.com",
+    "project_id": "addonchatsignin",
+    "storage_bucket": "addonchatsignin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005117572671:android:bd87ef63ee585040",
+        "android_client_info": {
+          "package_name": "ua.com.marinanikitenko.addonchatsignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005117572671-hqvkkoc262rjo7ht9utd4ijh6ivilseb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.com.marinanikitenko.addonchatsignin",
+            "certificate_hash": "98dd56914cf0abf9dbc0eefb2baf4ee15c1e7b39"
+          }
+        },
+        {
+          "client_id": "1005117572671-8taofp3j65q3afm4r47h3es2jic7i8vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9dJC95X95gv0d8S3Asjo6ggblcRGYvUc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005117572671-8taofp3j65q3afm4r47h3es2jic7i8vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
